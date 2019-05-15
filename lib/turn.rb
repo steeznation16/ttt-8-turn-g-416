@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  
+  user_input.to
 
 def valid_move?(board, index)
   index.between?(0,8) && !position_taken?(board, index)
