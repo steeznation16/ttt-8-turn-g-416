@@ -6,6 +6,6 @@ def display_board(array)
   puts " #{array[6]} | #{array[7]} | #{array[8]} "
   end
 
-def valid_move?
+def valid_move?(board, index)
   
 end
